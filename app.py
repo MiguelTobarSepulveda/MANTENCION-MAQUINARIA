@@ -12,7 +12,7 @@ USERS = {
 }
 
 def login():
-    st.title("Acceso al Dashboard")
+    st.title("Dashboard Mantencion Maquinaria")
     username = st.text_input("Usuario")
     password = st.text_input("Contraseña", type="password")
     if st.button("Ingresar"):
